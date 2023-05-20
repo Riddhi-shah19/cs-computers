@@ -75,6 +75,11 @@
 }
 
 @media (max-width: 44em) {
+
+.header{
+  padding: 0 1rem;
+}
+
   .grid--2-cols {
     grid-template-columns: none;
     gap: 2rem;
@@ -122,10 +127,6 @@
 .read-more-text{
   display: inline;
 }
-
-  .about-us-content {
-    text-align: left;
-  }
 
   .carousel{
     width:100%;
